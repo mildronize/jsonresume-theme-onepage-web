@@ -10,6 +10,8 @@ See <a href="/resume.pdf" download="">resume.pdf</a> for an example
 
 ## Instaling the theme
 
+> Note: that `resume-cli, is no-longer maintained, use `resumed` instead.
+
 Move to the `resume.json` folder and run:
 
 ```
@@ -22,7 +24,7 @@ resume serve -t onepage-updated
 
 ```
 npm install -g resume-cli
-git clone https://github.com/danielrodcaball/jsonresume-theme-onepage-updated.git
+git clone https://github.com/mildronize/jsonresume-theme-onepage-web.git
 cd jsonresume-theme-onepage-updated
 npm install
 resume serve --theme .

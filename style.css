@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background: #EEEEEE;
-    font: 13px "Times New Roman", Times, sans-serif;
+    background: #FFFFFF;
+    font: 15px "Work Sans", serif;
+    font-weight: 400;
     line-height: 1.4;
     margin: 40px 0;
 }
@@ -27,12 +30,9 @@ a {
 
 #resume {
     margin: 0 auto;
-    max-width: 600px;
-    padding: 80px 100px;
+    max-width: 800px;
+    padding: 10px 100px;
     background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 4px #aaa;
-    -webkit-box-shadow: 2px 2px 4px #aaa;
 }
 
 .coursesList {
@@ -42,11 +42,11 @@ a {
 }
 
 .largeFont {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .smallFont {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .sectionBlock {
@@ -112,6 +112,10 @@ a {
 
 .description {
     text-align: justify;
+}
+
+#basicsBlock{
+    margin: 5px 0;
 }
 
 blockquote.reference {

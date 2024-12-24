@@ -1,14 +1,23 @@
 {
-    "name": "jsonresume-theme-onepage-updated",
+    "name": "jsonresume-theme-onepage-web",
     "version": "1.0.3",
-    "description": "An update of the onepage theme (a compact theme for JSON Resume, designed for printing).",
-    "author": "Daniel A. Rodríguez Caballero",
+    "description": "An update of the onepage theme for Web View (a compact theme for JSON Resume, designed for printing).",
+    "author": "Thada Wangthammang",
     "repository": {
         "type": "git",
-        "url": "https://github.com/danielrodcaball/jsonresume-theme-onepage-updated"
+        "url": "https://github.com/mildronize/jsonresume-theme-onepage-web"
+    },
+    "scripts": {
+        "serve": "npx serve public",
+        "watch": "nodemon --exec 'npm run build' --watch . --ext json,css,hbs",
+        "build": "resume export --theme . --format html public/index.html"
     },
     "license": "MIT",
     "dependencies": {
         "handlebars": "^2.0.0-alpha.4"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9",
+        "resume-cli": "^3.1.2"
     }
 }
